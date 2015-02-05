@@ -612,10 +612,11 @@
         // ${today} に、時刻を挿入
         // added by monta
         var h = now.getHours();
-        var mm = now.getMinutes();
+        var mn = now.getMinutes();
 
         //x.today = y + "." + m + "." + dd;
-        x.today = y + "/" + m + "/" + dd + " " + h + ":" mm;
+        x.today = y + "/" + m + "/" + dd + " " + h + ":" + mn;
+
         // ここまで
         return x;
     }
