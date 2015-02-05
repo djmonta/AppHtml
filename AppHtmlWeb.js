@@ -484,7 +484,7 @@ new Placeholder('スクリーンショット(univ)2', '${univimage2}',       iOS
 new Placeholder('スクリーンショット(univ)3', '${univimage3}',       iOSEntity),
 new Placeholder('スクリーンショット(univ)4', '${univimage4}',       iOSEntity),
 new Placeholder('スクリーンショット(univ)5', '${univimage5}',       iOSEntity),
-new Placeholder('実行日',                  '${today}',            allEntity)
+new Placeholder('実行日時',                  '${today}',            allEntity)
 ];
 
 function insertPlaceholder(index) {

@@ -608,7 +608,15 @@
         var y = now.getFullYear();
         var m = now.getMonth() + 1;
         var dd = now.getDate();
-        x.today = y + "." + m + "." + dd;
+
+        // ${today} に、時刻を挿入
+        // added by monta
+        var h = now.getHours();
+        var mm = now.getMinutes();
+
+        //x.today = y + "." + m + "." + dd;
+        x.today = y + "/" + m + "/" + dd + " " + h + ":" mm;
+        // ここまで
         return x;
     }
 
